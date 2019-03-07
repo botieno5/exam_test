@@ -21,7 +21,7 @@ sh "docker push botieno5/exam:latest"
 }
 
 stage('Deploy') {
-sh "docker run -d -p 7220:80/tcp exam:latest"
+sh "docker run -d -p 7221:80/tcp exam:latest"
 }
 
 
